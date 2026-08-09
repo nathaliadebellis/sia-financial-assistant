@@ -1,0 +1,292 @@
+[
+  {
+    "id": "PR001",
+    "nome": "Poupança",
+    "categoria": "Renda Fixa",
+    "descricao": "Aplicação financeira de baixo risco oferecida pelas instituições financeiras, bastante utilizada para guardar dinheiro e formar uma reserva financeira.",
+    "nivel_risco": "Baixo",
+    "liquidez": "Diária",
+    "rentabilidade": "Definida conforme as regras vigentes para a caderneta de poupança.",
+    "tributacao": "Isenta de Imposto de Renda para pessoas físicas.",
+    "garantia": "Cobertura do Fundo Garantidor de Créditos (FGC), respeitados os limites vigentes.",
+    "perfil_indicado": [
+      "PI001"
+    ],
+    "vantagens": [
+      "Facilidade de aplicação.",
+      "Liquidez diária.",
+      "Baixo risco.",
+      "Isenção de Imposto de Renda."
+    ],
+    "desvantagens": [
+      "Rentabilidade geralmente inferior a outras alternativas de renda fixa.",
+      "Pode perder poder de compra em períodos de inflação elevada."
+    ],
+    "conceitos_relacionados": [
+      "INV001",
+      "INV002",
+      "INV004",
+      "ECO001"
+    ],
+    "referencias": [
+      {
+        "instituicao": "Banco Central do Brasil",
+        "tema": "Poupança"
+      }
+    ]
+  },
+
+  {
+    "id": "PR002",
+    "nome": "Tesouro Selic",
+    "categoria": "Renda Fixa",
+    "descricao": "Título público federal cuja rentabilidade acompanha a taxa Selic, sendo amplamente utilizado para reserva de emergência devido à sua liquidez e baixo risco.",
+    "nivel_risco": "Baixo",
+    "liquidez": "Diária",
+    "rentabilidade": "Atrelada à taxa Selic.",
+    "tributacao": "Incidência de Imposto de Renda conforme tabela regressiva e IOF quando aplicável.",
+    "garantia": "Garantido pelo Tesouro Nacional.",
+    "perfil_indicado": [
+      "PI001",
+      "PI002"
+    ],
+    "vantagens": [
+      "Alta segurança.",
+      "Liquidez diária.",
+      "Adequado para reserva de emergência."
+    ],
+    "desvantagens": [
+      "Pode não ser a melhor alternativa para objetivos de longo prazo quando comparado a outros investimentos."
+    ],
+    "conceitos_relacionados": [
+      "INV001",
+      "INV002",
+      "INV004",
+      "ECO002"
+    ],
+    "referencias": [
+      {
+        "instituicao": "Tesouro Direto",
+        "tema": "Tesouro Selic"
+      }
+    ]
+  },
+
+  {
+    "id": "PR003",
+    "nome": "CDB",
+    "categoria": "Renda Fixa",
+    "descricao": "Título emitido por instituições financeiras para captar recursos junto aos investidores.",
+    "nivel_risco": "Baixo a Médio",
+    "liquidez": "Depende das condições do título.",
+    "rentabilidade": "Pode ser prefixada, pós-fixada ou híbrida.",
+    "tributacao": "Imposto de Renda conforme tabela regressiva e IOF quando aplicável.",
+    "garantia": "Cobertura do Fundo Garantidor de Créditos (FGC), respeitados os limites vigentes.",
+    "perfil_indicado": [
+      "PI001",
+      "PI002"
+    ],
+    "vantagens": [
+      "Diversas opções de rentabilidade.",
+      "Proteção do FGC."
+    ],
+    "desvantagens": [
+      "Alguns títulos possuem baixa liquidez.",
+      "Incidência de Imposto de Renda."
+    ],
+    "conceitos_relacionados": [
+      "INV001",
+      "INV002",
+      "INV004"
+    ],
+    "referencias": [
+      {
+        "instituicao": "Banco Central do Brasil",
+        "tema": "CDB"
+      }
+    ]
+  },
+
+  {
+    "id": "PR004",
+    "nome": "LCI",
+    "categoria": "Renda Fixa",
+    "descricao": "Título emitido por instituições financeiras destinado ao financiamento do setor imobiliário.",
+    "nivel_risco": "Baixo",
+    "liquidez": "Normalmente no vencimento.",
+    "rentabilidade": "Pode ser prefixada ou pós-fixada.",
+    "tributacao": "Isenta de Imposto de Renda para pessoas físicas.",
+    "garantia": "Cobertura do Fundo Garantidor de Créditos (FGC), respeitados os limites vigentes.",
+    "perfil_indicado": [
+      "PI001",
+      "PI002"
+    ],
+    "vantagens": [
+      "Isenção de Imposto de Renda.",
+      "Proteção do FGC."
+    ],
+    "desvantagens": [
+      "Baixa liquidez em muitos títulos."
+    ],
+    "conceitos_relacionados": [
+      "INV002",
+      "INV004"
+    ],
+    "referencias": [
+      {
+        "instituicao": "Banco Central do Brasil",
+        "tema": "LCI"
+      }
+    ]
+  },
+
+  {
+    "id": "PR005",
+    "nome": "LCA",
+    "categoria": "Renda Fixa",
+    "descricao": "A Letra de Crédito do Agronegócio (LCA) é um título de renda fixa emitido por instituições financeiras para captar recursos destinados ao financiamento do setor do agronegócio.",
+    "nivel_risco": "Baixo",
+    "liquidez": "Normalmente no vencimento, podendo haver opções com liquidez conforme as condições do título.",
+    "rentabilidade": "Pode ser prefixada, pós-fixada ou híbrida, conforme as características da aplicação.",
+    "tributacao": "Isenta de Imposto de Renda para pessoas físicas.",
+    "garantia": "Cobertura do Fundo Garantidor de Créditos (FGC), respeitados os limites vigentes.",
+    "perfil_indicado": [
+      "PI001",
+      "PI002"
+    ],
+    "vantagens": [
+      "Isenção de Imposto de Renda para pessoas físicas.",
+      "Proteção do FGC dentro dos limites estabelecidos.",
+      "Possibilidade de rentabilidade competitiva em relação a outros investimentos de renda fixa."
+    ],
+    "desvantagens": [
+      "Muitos títulos possuem baixa liquidez antes do vencimento.",
+      "Pode exigir investimento mínimo elevado em algumas instituições."
+    ],
+    "conceitos_relacionados": [
+      "INV001",
+      "INV002",
+      "INV004"
+    ],
+    "referencias": [
+      {
+        "instituicao": "Banco Central do Brasil",
+        "tema": "LCA"
+      }
+    ]
+  },
+
+
+    {
+      "id": "PR006",
+      "nome": "Fundo de Investimento",
+      "categoria": "Fundos",
+      "descricao": "Modalidade de investimento em que os recursos de diversos investidores são reunidos em um único patrimônio e administrados por um gestor profissional, seguindo uma política de investimento previamente definida.",
+      "nivel_risco": "Baixo a Alto (dependendo do fundo)",
+      "liquidez": "Depende das regras do fundo.",
+      "rentabilidade": "Varia conforme os ativos que compõem a carteira e as condições do mercado.",
+      "tributacao": "Depende da categoria do fundo e da legislação vigente.",
+      "garantia": "Não possui cobertura do Fundo Garantidor de Créditos (FGC).",
+      "perfil_indicado": [
+        "PI001",
+        "PI002",
+        "PI003"
+      ],
+      "vantagens": [
+        "Gestão realizada por profissionais especializados.",
+        "Permite diversificação com um único investimento.",
+        "Existem opções para diferentes perfis de investidor."
+      ],
+      "desvantagens": [
+        "Pode haver cobrança de taxa de administração e taxa de performance.",
+        "Não possui garantia do FGC.",
+        "O desempenho depende da estratégia adotada pelo fundo."
+      ],
+      "conceitos_relacionados": [
+        "INV001",
+        "INV006",
+        "INV007",
+        "INV008"
+      ],
+      "referencias": [
+        {
+          "instituicao": "Comissão de Valores Mobiliários (CVM)",
+          "tema": "Fundos de Investimento"
+        }
+      ]
+    },
+    {
+      "id": "PR007",
+      "nome": "ETF",
+      "categoria": "Renda Variável",
+      "descricao": "ETF (Exchange Traded Fund) é um fundo de investimento negociado em bolsa de valores que busca acompanhar o desempenho de um índice de mercado.",
+      "nivel_risco": "Médio a Alto",
+      "liquidez": "Diária durante o horário de negociação da bolsa.",
+      "rentabilidade": "Acompanha, em geral, o desempenho do índice de referência, descontadas as taxas do fundo.",
+      "tributacao": "Incidência de Imposto de Renda conforme a legislação vigente.",
+      "garantia": "Não possui cobertura do Fundo Garantidor de Créditos (FGC).",
+      "perfil_indicado": [
+        "PI002",
+        "PI003"
+      ],
+      "vantagens": [
+        "Diversificação em um único ativo.",
+        "Negociação simples pela bolsa de valores.",
+        "Custos geralmente menores que fundos de gestão ativa."
+      ],
+      "desvantagens": [
+        "Está sujeito às oscilações do mercado.",
+        "Não oferece proteção contra perdas.",
+        "Pode sofrer variações significativas de preço."
+      ],
+      "conceitos_relacionados": [
+        "INV003",
+        "INV006",
+        "INV007",
+        "INV008"
+      ],
+      "referencias": [
+        {
+          "instituicao": "Comissão de Valores Mobiliários (CVM)",
+          "tema": "ETF"
+        }
+      ]
+    },
+    {
+      "id": "PR008",
+      "nome": "Ações",
+      "categoria": "Renda Variável",
+      "descricao": "Ações representam pequenas parcelas do capital social de uma empresa. Ao adquirir uma ação, o investidor torna-se acionista da companhia.",
+      "nivel_risco": "Alto",
+      "liquidez": "Depende da negociação das ações na bolsa de valores.",
+      "rentabilidade": "Pode ocorrer por meio da valorização das ações e do recebimento de dividendos, sem garantia de retorno.",
+      "tributacao": "Incidência de Imposto de Renda conforme a legislação vigente.",
+      "garantia": "Não possui cobertura do Fundo Garantidor de Créditos (FGC).",
+      "perfil_indicado": [
+        "PI003"
+      ],
+      "vantagens": [
+        "Possibilidade de maior potencial de rentabilidade no longo prazo.",
+        "Participação nos resultados da empresa por meio de dividendos, quando distribuídos.",
+        "Facilidade de negociação em bolsa."
+      ],
+      "desvantagens": [
+        "Maior exposição às oscilações do mercado.",
+        "Possibilidade de perdas financeiras.",
+        "Exige maior conhecimento sobre investimentos."
+      ],
+      "conceitos_relacionados": [
+        "INV001",
+        "INV003",
+        "INV006",
+        "INV007",
+        "INV008"
+      ],
+      "referencias": [
+        {
+          "instituicao": "Comissão de Valores Mobiliários (CVM)",
+          "tema": "Ações"
+        }
+      ]
+    }
+  ]

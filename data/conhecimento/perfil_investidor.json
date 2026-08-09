@@ -1,0 +1,134 @@
+[
+  {
+    "id": "PI001",
+    "nome": "Conservador",
+    "descricao": "Prioriza a segurança do patrimônio e aceita pouca oscilação nos investimentos, mesmo que isso resulte em menor potencial de rentabilidade.",
+    "caracteristicas": [
+      "Baixa tolerância ao risco.",
+      "Busca previsibilidade nos resultados.",
+      "Prefere preservar o capital investido."
+    ],
+    "objetivos_comuns": [
+      "Formar reserva de emergência.",
+      "Preservar o patrimônio.",
+      "Alcançar estabilidade financeira."
+    ],
+    "investimentos_adequados": [
+      "Tesouro Selic",
+      "CDB",
+      "LCI",
+      "LCA",
+      "Poupança"
+    ],
+    "investimentos_nao_recomendados": [
+      "Ativos de alta volatilidade sem conhecimento prévio."
+    ],
+    "palavras_chave": [
+      "conservador",
+      "baixo risco",
+      "segurança",
+      "estabilidade"
+    ],
+    "conceitos_relacionados": [
+      "INV001",
+      "INV002",
+      "INV004",
+      "INV005",
+      "INV008"
+    ],
+    "referencias": [
+      {
+        "instituicao": "Comissão de Valores Mobiliários (CVM)",
+        "tema": "Perfil do Investidor"
+      }
+    ]
+  },
+  {
+    "id": "PI002",
+    "nome": "Moderado",
+    "descricao": "Aceita assumir um nível intermediário de risco em busca de melhores oportunidades de rentabilidade, mantendo parte da carteira em investimentos mais conservadores.",
+    "caracteristicas": [
+      "Equilibra segurança e rentabilidade.",
+      "Aceita oscilações moderadas.",
+      "Diversifica os investimentos."
+    ],
+    "objetivos_comuns": [
+      "Aumentar o patrimônio no médio e longo prazo.",
+      "Diversificar investimentos.",
+      "Buscar melhor relação entre risco e retorno."
+    ],
+    "investimentos_adequados": [
+      "Tesouro IPCA+",
+      "CDB",
+      "Fundos de Investimento",
+      "ETFs",
+      "Ações em pequena proporção"
+    ],
+    "investimentos_nao_recomendados": [
+      "Concentrar todo o patrimônio em ativos de alto risco."
+    ],
+    "palavras_chave": [
+      "moderado",
+      "equilíbrio",
+      "diversificação",
+      "risco"
+    ],
+    "conceitos_relacionados": [
+      "INV001",
+      "INV003",
+      "INV004",
+      "INV006",
+      "INV008"
+    ],
+    "referencias": [
+      {
+        "instituicao": "Comissão de Valores Mobiliários (CVM)",
+        "tema": "Perfil do Investidor"
+      }
+    ]
+  },
+  {
+    "id": "PI003",
+    "nome": "Arrojado",
+    "descricao": "Possui maior tolerância ao risco e aceita oscilações significativas nos investimentos em busca de maior potencial de rentabilidade no longo prazo.",
+    "caracteristicas": [
+      "Alta tolerância ao risco.",
+      "Foco em objetivos de longo prazo.",
+      "Aceita oscilações no valor da carteira."
+    ],
+    "objetivos_comuns": [
+      "Maximizar o crescimento do patrimônio.",
+      "Buscar maior potencial de retorno.",
+      "Investir com horizonte de longo prazo."
+    ],
+    "investimentos_adequados": [
+      "Ações",
+      "ETFs",
+      "Fundos de Ações",
+      "Fundos Imobiliários",
+      "Outros ativos de maior risco compatíveis com seu perfil."
+    ],
+    "investimentos_nao_recomendados": [
+      "Concentrar todos os recursos em um único ativo."
+    ],
+    "palavras_chave": [
+      "arrojado",
+      "alto risco",
+      "rentabilidade",
+      "longo prazo"
+    ],
+    "conceitos_relacionados": [
+      "INV001",
+      "INV003",
+      "INV006",
+      "INV007",
+      "INV008"
+    ],
+    "referencias": [
+      {
+        "instituicao": "Comissão de Valores Mobiliários (CVM)",
+        "tema": "Perfil do Investidor"
+      }
+    ]
+  }
+]

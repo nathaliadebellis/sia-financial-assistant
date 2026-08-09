@@ -1,0 +1,175 @@
+[
+  {
+    "id": "FAQ001",
+    "pergunta": "O que é educação financeira?",
+    "resumo": "Educação financeira é o desenvolvimento de conhecimentos e habilidades para administrar o dinheiro de forma consciente e tomar melhores decisões financeiras.",
+    "categoria": "Educação Financeira",
+    "conceitos_relacionados": [
+      "PF001",
+      "PF007",
+      "PF008"
+    ],
+    "referencias": [
+      {
+        "instituicao": "Banco Central do Brasil",
+        "tema": "Cidadania Financeira"
+      }
+    ]
+  },
+  {
+    "id": "FAQ002",
+    "pergunta": "Como montar um orçamento pessoal?",
+    "resumo": "Organize suas receitas e despesas, acompanhe os gastos regularmente e ajuste o planejamento sempre que necessário.",
+    "categoria": "Planejamento Financeiro",
+    "conceitos_relacionados": [
+      "PF001",
+      "PF002",
+      "PF003",
+      "PF004",
+      "PF005"
+    ],
+    "referencias": [
+      {
+        "instituicao": "Banco Central do Brasil",
+        "tema": "Planejamento Financeiro"
+      }
+    ]
+  },
+  {
+    "id": "FAQ003",
+    "pergunta": "Quanto devo guardar para uma reserva de emergência?",
+    "resumo": "Em geral, recomenda-se acumular entre três e seis meses das despesas mensais, considerando a realidade financeira de cada pessoa.",
+    "categoria": "Planejamento Financeiro",
+    "conceitos_relacionados": [
+      "PF006"
+    ],
+    "referencias": [
+      {
+        "instituicao": "Banco Central do Brasil",
+        "tema": "Reserva de Emergência"
+      }
+    ]
+  },
+  {
+    "id": "FAQ004",
+    "pergunta": "Qual a diferença entre renda fixa e renda variável?",
+    "resumo": "Na renda fixa a remuneração segue regras previamente definidas. Na renda variável, o retorno depende das oscilações do mercado.",
+    "categoria": "Investimentos",
+    "conceitos_relacionados": [
+      "INV002",
+      "INV003",
+      "INV008"
+    ],
+    "referencias": [
+      {
+        "instituicao": "Comissão de Valores Mobiliários (CVM)",
+        "tema": "Investimentos"
+      }
+    ]
+  },
+  {
+    "id": "FAQ005",
+    "pergunta": "O que significa liquidez?",
+    "resumo": "Liquidez representa a facilidade de transformar um investimento em dinheiro, considerando prazo e possíveis perdas de valor.",
+    "categoria": "Investimentos",
+    "conceitos_relacionados": [
+      "INV004"
+    ],
+    "referencias": [
+      {
+        "instituicao": "Banco Central do Brasil",
+        "tema": "Investimentos"
+      }
+    ]
+  },
+  {
+    "id": "FAQ006",
+    "pergunta": "Como descobrir meu perfil de investidor?",
+    "resumo": "O perfil do investidor é identificado por meio de um questionário aplicado pelas instituições financeiras, considerando objetivos, experiência e tolerância ao risco.",
+    "categoria": "Investimentos",
+    "conceitos_relacionados": [
+      "INV005",
+      "PI001",
+      "PI002",
+      "PI003"
+    ],
+    "referencias": [
+      {
+        "instituicao": "Comissão de Valores Mobiliários (CVM)",
+        "tema": "Perfil do Investidor"
+      }
+    ]
+  },
+  {
+    "id": "FAQ007",
+    "pergunta": "Vale a pena fazer um empréstimo?",
+    "resumo": "A contratação de um empréstimo deve considerar a necessidade, a capacidade de pagamento e os custos envolvidos na operação.",
+    "categoria": "Crédito e Dívidas",
+    "conceitos_relacionados": [
+      "CD001",
+      "CD002",
+      "CD003",
+      "CD004"
+    ],
+    "referencias": [
+      {
+        "instituicao": "Banco Central do Brasil",
+        "tema": "Crédito"
+      }
+    ]
+  },
+  {
+    "id": "FAQ008",
+    "pergunta": "O que é inflação?",
+    "resumo": "Inflação é o aumento generalizado dos preços de bens e serviços ao longo do tempo, reduzindo o poder de compra da moeda.",
+    "categoria": "Economia",
+    "conceitos_relacionados": [
+      "ECO001",
+      "ECO002",
+      "ECO003"
+    ],
+    "referencias": [
+      {
+        "instituicao": "Banco Central do Brasil",
+        "tema": "Inflação"
+      }
+    ]
+  },
+  {
+    "id": "FAQ009",
+    "pergunta": "Qual investimento é melhor para iniciantes?",
+    "resumo": "Não existe um investimento ideal para todas as pessoas. A escolha depende dos objetivos, do prazo, da necessidade de liquidez e do perfil do investidor.",
+    "categoria": "Investimentos",
+    "conceitos_relacionados": [
+      "INV001",
+      "INV005",
+      "PR001",
+      "PR002",
+      "PR003"
+    ],
+    "referencias": [
+      {
+        "instituicao": "Comissão de Valores Mobiliários (CVM)",
+        "tema": "Educação Financeira"
+      }
+    ]
+  },
+  {
+    "id": "FAQ010",
+    "pergunta": "Por que acompanhar meus gastos é importante?",
+    "resumo": "O controle dos gastos ajuda a identificar padrões de consumo, evitar desperdícios e tomar decisões financeiras mais conscientes.",
+    "categoria": "Planejamento Financeiro",
+    "conceitos_relacionados": [
+      "PF001",
+      "PF003",
+      "PF004",
+      "PF005"
+    ],
+    "referencias": [
+      {
+        "instituicao": "Banco Central do Brasil",
+        "tema": "Planejamento Financeiro"
+      }
+    ]
+  }
+]

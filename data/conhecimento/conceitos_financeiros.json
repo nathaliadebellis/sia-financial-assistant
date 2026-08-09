@@ -1,0 +1,710 @@
+[
+  {
+    "id": "PF001",
+    "nome": "Orçamento",
+    "categoria": "Planejamento Financeiro",
+    "nivel": "Básico",
+    "definicao": "Planejamento das receitas e despesas durante um determinado período, permitindo acompanhar como os recursos financeiros serão utilizados.",
+    "importancia": "Ajuda a controlar gastos, evitar endividamento e alcançar objetivos financeiros.",
+    "como_aplicar": [
+      "Registrar todas as receitas.",
+      "Registrar todas as despesas.",
+      "Comparar receitas e despesas mensalmente.",
+      "Revisar o orçamento periodicamente."
+    ],
+    "erros_comuns": [
+      "Não registrar pequenos gastos.",
+      "Ignorar despesas sazonais.",
+      "Não revisar o orçamento."
+    ],
+    "exemplo": "Uma pessoa registra seu salário e todas as despesas do mês para verificar se está gastando mais do que recebe.",
+    "palavras_chave": [
+      "orçamento",
+      "planejamento financeiro",
+      "receitas",
+      "despesas",
+      "controle financeiro"
+    ],
+    "conceitos_relacionados": [
+      "PF002",
+      "PF003",
+      "PF004",
+      "PF005",
+      "PF006"
+    ],
+    "referencias": [
+      {
+        "instituicao": "Banco Central do Brasil",
+        "tema": "Cidadania Financeira"
+      }
+    ]
+  },
+  {
+    "id": "PF002",
+    "nome": "Receita",
+    "categoria": "Planejamento Financeiro",
+    "nivel": "Básico",
+    "definicao": "Todo valor recebido por uma pessoa ou família, independentemente da sua origem.",
+    "importancia": "Conhecer todas as receitas permite planejar melhor os gastos e estabelecer metas financeiras.",
+    "como_aplicar": [
+      "Registrar todas as entradas de dinheiro.",
+      "Diferenciar receitas fixas e variáveis."
+    ],
+    "erros_comuns": [
+      "Esquecer rendas extras.",
+      "Considerar empréstimos como receita."
+    ],
+    "exemplo": "Salário, comissões e rendimentos de investimentos são exemplos de receitas.",
+    "palavras_chave": [
+      "receita",
+      "renda",
+      "ganhos",
+      "salário"
+    ],
+    "conceitos_relacionados": [
+      "PF001",
+      "PF003"
+    ],
+    "referencias": [
+      {
+        "instituicao": "Banco Central do Brasil",
+        "tema": "Educação Financeira"
+      }
+    ]
+  },
+  {
+    "id": "PF003",
+    "nome": "Despesa",
+    "categoria": "Planejamento Financeiro",
+    "nivel": "Básico",
+    "definicao": "Todo gasto realizado para adquirir bens, serviços ou cumprir obrigações financeiras.",
+    "importancia": "Permite acompanhar para onde o dinheiro está sendo direcionado e identificar oportunidades de economia.",
+    "como_aplicar": [
+      "Registrar todas as despesas.",
+      "Classificar os gastos por categoria."
+    ],
+    "erros_comuns": [
+      "Ignorar pequenos gastos.",
+      "Não categorizar as despesas."
+    ],
+    "exemplo": "Aluguel, alimentação, transporte e lazer são exemplos de despesas.",
+    "palavras_chave": [
+      "despesa",
+      "gasto",
+      "pagamento"
+    ],
+    "conceitos_relacionados": [
+      "PF001",
+      "PF004",
+      "PF005"
+    ],
+    "referencias": [
+      {
+        "instituicao": "Banco Central do Brasil",
+        "tema": "Educação Financeira"
+      }
+    ]
+  },
+  {
+    "id": "PF004",
+    "nome": "Despesa Fixa",
+    "categoria": "Planejamento Financeiro",
+    "nivel": "Básico",
+    "definicao": "Despesa recorrente que apresenta pouca ou nenhuma variação de valor ao longo do tempo.",
+    "importancia": "Facilita o planejamento financeiro por representar compromissos previsíveis.",
+    "como_aplicar": [
+      "Identificar todas as despesas recorrentes.",
+      "Reservar parte da renda para quitá-las."
+    ],
+    "erros_comuns": [
+      "Confundir despesas fixas com variáveis."
+    ],
+    "exemplo": "Aluguel, condomínio e plano de internet.",
+    "palavras_chave": [
+      "despesa fixa",
+      "custos fixos"
+    ],
+    "conceitos_relacionados": [
+      "PF003",
+      "PF005"
+    ],
+    "referencias": [
+      {
+        "instituicao": "Banco Central do Brasil",
+        "tema": "Planejamento Financeiro"
+      }
+    ]
+  },
+  {
+    "id": "PF005",
+    "nome": "Despesa Variável",
+    "categoria": "Planejamento Financeiro",
+    "nivel": "Básico",
+    "definicao": "Despesa cujo valor varia conforme o consumo ou circunstâncias específicas.",
+    "importancia": "Permite identificar oportunidades para reduzir gastos.",
+    "como_aplicar": [
+      "Monitorar os gastos diariamente.",
+      "Comparar os valores entre os meses."
+    ],
+    "erros_comuns": [
+      "Não controlar compras por impulso."
+    ],
+    "exemplo": "Lazer, restaurantes, combustível e compras.",
+    "palavras_chave": [
+      "despesa variável",
+      "consumo"
+    ],
+    "conceitos_relacionados": [
+      "PF003",
+      "PF004"
+    ],
+    "referencias": [
+      {
+        "instituicao": "Banco Central do Brasil",
+        "tema": "Planejamento Financeiro"
+      }
+    ]
+  },
+  {
+    "id": "PF006",
+    "nome": "Reserva de Emergência",
+    "categoria": "Planejamento Financeiro",
+    "nivel": "Básico",
+    "definicao": "Valor reservado para cobrir despesas inesperadas ou períodos de redução da renda, proporcionando maior segurança financeira.",
+    "importancia": "Evita a necessidade de recorrer a empréstimos ou utilizar investimentos de longo prazo em situações de emergência.",
+    "como_aplicar": [
+      "Definir uma meta equivalente a três a seis meses das despesas mensais.",
+      "Guardar o valor gradualmente.",
+      "Manter a reserva em aplicações de baixo risco e alta liquidez."
+    ],
+    "erros_comuns": [
+      "Utilizar a reserva para gastos planejados ou supérfluos.",
+      "Investir a reserva em aplicações de alto risco.",
+      "Não recompor a reserva após utilizá-la."
+    ],
+    "exemplo": "Uma pessoa utiliza sua reserva de emergência para cobrir despesas durante um período de desemprego, sem precisar recorrer ao cheque especial.",
+    "palavras_chave": [
+      "reserva de emergência",
+      "imprevistos",
+      "segurança financeira",
+      "liquidez"
+    ],
+    "conceitos_relacionados": [
+      "PF001",
+      "PF002",
+      "INV004"
+    ],
+    "referencias": [
+      {
+        "instituicao": "Banco Central do Brasil",
+        "tema": "Educação Financeira"
+      }
+    ]
+  },
+  {
+    "id": "PF007",
+    "nome": "Meta Financeira",
+    "categoria": "Planejamento Financeiro",
+    "nivel": "Básico",
+    "definicao": "Objetivo financeiro definido para ser alcançado em um determinado período, por meio de planejamento e organização dos recursos.",
+    "importancia": "Ter metas financeiras ajuda a direcionar o uso do dinheiro, aumentar a disciplina e facilitar o acompanhamento do progresso.",
+    "como_aplicar": [
+      "Definir um objetivo específico.",
+      "Estabelecer um prazo para alcançá-lo.",
+      "Calcular quanto precisa ser economizado periodicamente.",
+      "Acompanhar a evolução da meta."
+    ],
+    "erros_comuns": [
+      "Criar metas sem prazo definido.",
+      "Estabelecer objetivos incompatíveis com a renda.",
+      "Não acompanhar o progresso da meta."
+    ],
+    "exemplo": "Economizar R$ 12.000 em dois anos para dar entrada na compra de um automóvel.",
+    "palavras_chave": [
+      "meta financeira",
+      "objetivos",
+      "planejamento",
+      "economia"
+    ],
+    "conceitos_relacionados": [
+      "PF001",
+      "PF006",
+      "INV001"
+    ],
+    "referencias": [
+      {
+        "instituicao": "Banco Central do Brasil",
+        "tema": "Planejamento Financeiro"
+      }
+    ]
+  },
+  {
+    "id": "PF008",
+    "nome": "Patrimônio Líquido",
+    "categoria": "Planejamento Financeiro",
+    "nivel": "Intermediário",
+    "definicao": "Diferença entre o valor total dos bens e direitos de uma pessoa e o total de suas dívidas e obrigações financeiras.",
+    "importancia": "Permite avaliar a situação financeira ao longo do tempo e acompanhar a evolução do patrimônio.",
+    "como_aplicar": [
+      "Listar todos os bens e investimentos.",
+      "Relacionar todas as dívidas existentes.",
+      "Subtrair o total das dívidas do total dos bens.",
+      "Atualizar esse cálculo periodicamente."
+    ],
+    "erros_comuns": [
+      "Desconsiderar dívidas no cálculo.",
+      "Superestimar o valor dos bens.",
+      "Confundir patrimônio com renda."
+    ],
+    "exemplo": "Uma pessoa possui R$ 300.000 em bens e investimentos e R$ 80.000 em dívidas. Seu patrimônio líquido é de R$ 220.000.",
+    "palavras_chave": [
+      "patrimônio líquido",
+      "bens",
+      "dívidas",
+      "ativos",
+      "passivos"
+    ],
+    "conceitos_relacionados": [
+      "PF002",
+      "PF003",
+      "PF007"
+    ],
+    "referencias": [
+      {
+        "instituicao": "Banco Central do Brasil",
+        "tema": "Educação Financeira"
+      }
+    ]
+  },
+  {
+    "id": "CD001",
+    "nome": "Crédito",
+    "categoria": "Crédito e Dívidas",
+    "nivel": "Básico",
+    "definicao": "Crédito é a possibilidade de obter recursos financeiros ou adquirir bens e serviços com pagamento em uma data futura, mediante condições previamente estabelecidas.",
+    "importancia": "Quando utilizado de forma consciente, o crédito pode auxiliar na realização de objetivos e na administração do orçamento. O uso inadequado pode levar ao endividamento.",
+    "como_aplicar": [
+      "Avaliar a real necessidade da contratação.",
+      "Verificar as taxas de juros e o Custo Efetivo Total (CET).",
+      "Planejar o pagamento das parcelas antes da contratação."
+    ],
+    "erros_comuns": [
+      "Contratar crédito sem analisar a capacidade de pagamento.",
+      "Utilizar crédito para manter um padrão de consumo acima da renda.",
+      "Ignorar os custos envolvidos na operação."
+    ],
+    "exemplo": "Uma pessoa utiliza uma linha de crédito para financiar a compra de um computador que será utilizado para o trabalho.",
+    "palavras_chave": [
+      "crédito",
+      "empréstimo",
+      "financiamento",
+      "limite",
+      "parcelamento"
+    ],
+    "conceitos_relacionados": [
+      "CD002",
+      "CD003",
+      "CD004"
+    ],
+    "referencias": [
+      {
+        "instituicao": "Banco Central do Brasil",
+        "tema": "Crédito"
+      }
+    ]
+  },
+  {
+    "id": "CD002",
+    "nome": "Empréstimo",
+    "categoria": "Crédito e Dívidas",
+    "nivel": "Básico",
+    "definicao": "Empréstimo é uma operação de crédito na qual uma instituição financeira disponibiliza um valor ao cliente, que deverá devolvê-lo em prazo determinado, acrescido de juros e demais encargos.",
+    "importancia": "Conhecer as condições de um empréstimo ajuda a evitar custos elevados e o comprometimento excessivo da renda.",
+    "como_aplicar": [
+      "Comparar propostas de diferentes instituições financeiras.",
+      "Avaliar o impacto das parcelas no orçamento.",
+      "Ler atentamente o contrato antes da contratação."
+    ],
+    "erros_comuns": [
+      "Contratar empréstimos por impulso.",
+      "Comparar apenas o valor da parcela.",
+      "Desconsiderar juros e encargos."
+    ],
+    "exemplo": "Uma pessoa contrata um empréstimo pessoal para custear uma reforma residencial e paga o valor em parcelas mensais.",
+    "palavras_chave": [
+      "empréstimo",
+      "crédito pessoal",
+      "parcelas",
+      "juros"
+    ],
+    "conceitos_relacionados": [
+      "CD001",
+      "CD003",
+      "CD004"
+    ],
+    "referencias": [
+      {
+        "instituicao": "Banco Central do Brasil",
+        "tema": "Empréstimos"
+      }
+    ]
+  },
+  {
+    "id": "CD003",
+    "nome": "Juros Compostos",
+    "categoria": "Crédito e Dívidas",
+    "nivel": "Intermediário",
+    "definicao": "Juros compostos são calculados sobre o valor principal acrescido dos juros acumulados nos períodos anteriores, fazendo com que os juros incidam sobre juros.",
+    "importancia": "Compreender os juros compostos é essencial para avaliar empréstimos, financiamentos e investimentos de longo prazo.",
+    "como_aplicar": [
+      "Comparar taxas de juros antes de contratar crédito.",
+      "Priorizar a quitação de dívidas com juros elevados.",
+      "Considerar o impacto do tempo sobre o valor final da dívida."
+    ],
+    "erros_comuns": [
+      "Analisar apenas o valor da parcela.",
+      "Ignorar o custo total da operação.",
+      "Subestimar o efeito dos juros ao longo do tempo."
+    ],
+    "exemplo": "Uma dívida que não é paga pode crescer rapidamente devido à incidência de juros sobre o saldo devedor atualizado.",
+    "palavras_chave": [
+      "juros compostos",
+      "juros",
+      "capitalização",
+      "dívida"
+    ],
+    "conceitos_relacionados": [
+      "CD001",
+      "CD002",
+      "ECO002"
+    ],
+    "referencias": [
+      {
+        "instituicao": "Banco Central do Brasil",
+        "tema": "Juros"
+      }
+    ]
+  },
+  {
+    "id": "CD004",
+    "nome": "Endividamento",
+    "categoria": "Crédito e Dívidas",
+    "nivel": "Básico",
+    "definicao": "Endividamento é a situação em que uma pessoa possui dívidas ou compromissos financeiros assumidos para pagamento futuro.",
+    "importancia": "Nem todo endividamento é um problema, mas ele deve permanecer compatível com a capacidade de pagamento para evitar inadimplência.",
+    "como_aplicar": [
+      "Acompanhar regularmente o total das dívidas.",
+      "Evitar assumir parcelas que comprometam excessivamente a renda.",
+      "Priorizar a quitação das dívidas com juros mais elevados."
+    ],
+    "erros_comuns": [
+      "Acumular diversas dívidas simultaneamente.",
+      "Pagar apenas o valor mínimo das faturas.",
+      "Ignorar o planejamento financeiro."
+    ],
+    "exemplo": "Uma pessoa possui financiamento do veículo, parcelas do cartão de crédito e um empréstimo pessoal, acompanhando todos esses compromissos para manter as contas em dia.",
+    "palavras_chave": [
+      "endividamento",
+      "dívidas",
+      "parcelas",
+      "inadimplência"
+    ],
+    "conceitos_relacionados": [
+      "CD001",
+      "CD002",
+      "PF001"
+    ],
+    "referencias": [
+      {
+        "instituicao": "Banco Central do Brasil",
+        "tema": "Educação Financeira"
+      }
+    ]
+  },
+  {
+    "id": "INV001",
+    "nome": "Investimento",
+    "categoria": "Investimentos",
+    "nivel": "Básico",
+    "definicao": "Investimento é a aplicação de recursos financeiros com o objetivo de obter retorno ao longo do tempo, preservando ou aumentando o patrimônio.",
+    "importancia": "Investir permite alcançar objetivos financeiros, proteger o patrimônio contra a inflação e construir riqueza no longo prazo.",
+    "como_aplicar": [
+      "Definir objetivos financeiros antes de investir.",
+      "Conhecer seu perfil de investidor.",
+      "Diversificar os investimentos sempre que possível."
+    ],
+    "erros_comuns": [
+      "Investir sem conhecer os riscos.",
+      "Buscar apenas o maior rendimento.",
+      "Investir sem objetivos definidos."
+    ],
+    "exemplo": "Uma pessoa investe parte da renda mensal para formar uma reserva destinada à compra de um imóvel no futuro.",
+    "palavras_chave": [
+      "investimento",
+      "aplicação",
+      "patrimônio",
+      "rentabilidade"
+    ],
+    "conceitos_relacionados": [
+      "INV002",
+      "INV003",
+      "INV004",
+      "INV005"
+    ],
+    "referencias": [
+      {
+        "instituicao": "Comissão de Valores Mobiliários (CVM)",
+        "tema": "Educação Financeira"
+      }
+    ]
+  },
+  {
+    "id": "INV002",
+    "nome": "Renda Fixa",
+    "categoria": "Investimentos",
+    "nivel": "Básico",
+    "definicao": "Categoria de investimentos em que a forma de remuneração é conhecida no momento da aplicação ou segue regras previamente estabelecidas.",
+    "importancia": "É frequentemente utilizada por investidores que buscam maior previsibilidade e menor exposição ao risco.",
+    "como_aplicar": [
+      "Comparar prazos e rentabilidades.",
+      "Verificar a liquidez antes de investir.",
+      "Avaliar se o investimento é compatível com seus objetivos."
+    ],
+    "erros_comuns": [
+      "Escolher investimentos apenas pela rentabilidade.",
+      "Ignorar prazos de resgate."
+    ],
+    "exemplo": "Títulos públicos e diversos títulos emitidos por instituições financeiras são exemplos de investimentos de renda fixa.",
+    "palavras_chave": [
+      "renda fixa",
+      "títulos",
+      "previsibilidade"
+    ],
+    "conceitos_relacionados": [
+      "INV001",
+      "INV003",
+      "INV004"
+    ],
+    "referencias": [
+      {
+        "instituicao": "Tesouro Direto",
+        "tema": "Conceitos Básicos"
+      }
+    ]
+  },
+  {
+    "id": "INV003",
+    "nome": "Renda Variável",
+    "categoria": "Investimentos",
+    "nivel": "Básico",
+    "definicao": "Categoria de investimentos cujo retorno não pode ser conhecido previamente, pois depende das condições de mercado.",
+    "importancia": "Pode oferecer maior potencial de retorno, mas também apresenta maior risco e oscilações de preço.",
+    "como_aplicar": [
+      "Conhecer os riscos envolvidos.",
+      "Investir de acordo com seu perfil.",
+      "Manter uma estratégia de longo prazo."
+    ],
+    "erros_comuns": [
+      "Investir esperando ganhos rápidos.",
+      "Tomar decisões baseadas apenas em notícias ou emoções."
+    ],
+    "exemplo": "Ações negociadas na bolsa de valores são exemplos de investimentos de renda variável.",
+    "palavras_chave": [
+      "renda variável",
+      "ações",
+      "mercado financeiro"
+    ],
+    "conceitos_relacionados": [
+      "INV001",
+      "INV002",
+      "INV005"
+    ],
+    "referencias": [
+      {
+        "instituicao": "Comissão de Valores Mobiliários (CVM)",
+        "tema": "Mercado de Capitais"
+      }
+    ]
+  },
+  {
+    "id": "INV004",
+    "nome": "Liquidez",
+    "categoria": "Investimentos",
+    "nivel": "Intermediário",
+    "definicao": "Liquidez é a facilidade e a rapidez com que um investimento pode ser convertido em dinheiro sem perdas significativas de valor.",
+    "importancia": "Conhecer a liquidez ajuda a escolher investimentos adequados para objetivos de curto, médio e longo prazo.",
+    "como_aplicar": [
+      "Avaliar quando o dinheiro poderá ser necessário.",
+      "Escolher investimentos compatíveis com esse prazo."
+    ],
+    "erros_comuns": [
+      "Investir recursos da reserva de emergência em aplicações de baixa liquidez.",
+      "Ignorar prazos de resgate."
+    ],
+    "exemplo": "Um investimento com liquidez diária permite resgates em prazos menores do que um investimento com vencimento definido.",
+    "palavras_chave": [
+      "liquidez",
+      "resgate",
+      "prazo"
+    ],
+    "conceitos_relacionados": [
+      "PF006",
+      "INV001",
+      "INV002"
+    ],
+    "referencias": [
+      {
+        "instituicao": "Banco Central do Brasil",
+        "tema": "Investimentos"
+      }
+    ]
+  },
+  {
+    "id": "INV005",
+    "nome": "Perfil do Investidor",
+    "categoria": "Investimentos",
+    "nivel": "Básico",
+    "definicao": "Perfil do investidor é a classificação utilizada para identificar a tolerância ao risco, os objetivos e o horizonte de investimento de uma pessoa.",
+    "importancia": "Conhecer o perfil ajuda na escolha de investimentos compatíveis com os objetivos e a disposição para assumir riscos.",
+    "como_aplicar": [
+      "Responder ao questionário de perfil disponibilizado pela instituição financeira.",
+      "Reavaliar o perfil periodicamente ou quando houver mudanças na situação financeira."
+    ],
+    "erros_comuns": [
+      "Escolher investimentos incompatíveis com o próprio perfil.",
+      "Alterar a estratégia devido às oscilações de curto prazo."
+    ],
+    "exemplo": "Uma pessoa com perfil conservador tende a priorizar investimentos com menor risco e maior previsibilidade.",
+    "palavras_chave": [
+      "perfil do investidor",
+      "risco",
+      "conservador",
+      "moderado",
+      "arrojado"
+    ],
+    "conceitos_relacionados": [
+      "INV001",
+      "INV002",
+      "INV003"
+    ],
+    "referencias": [
+      {
+        "instituicao": "Comissão de Valores Mobiliários (CVM)",
+        "tema": "Perfil do Investidor"
+      }
+    ]
+  },
+  {
+    "id": "INV006",
+    "nome": "Diversificação",
+    "categoria": "Investimentos",
+    "nivel": "Básico",
+    "definicao": "Diversificação é a estratégia de distribuir os investimentos entre diferentes tipos de ativos, setores ou instituições, reduzindo a concentração de riscos.",
+    "importancia": "Ajuda a diminuir o impacto de perdas em um único investimento, tornando a carteira mais equilibrada.",
+    "como_aplicar": [
+      "Distribuir os recursos entre diferentes classes de ativos.",
+      "Evitar concentrar todo o patrimônio em um único investimento.",
+      "Revisar periodicamente a composição da carteira."
+    ],
+    "erros_comuns": [
+      "Investir todo o patrimônio em um único ativo.",
+      "Confundir quantidade de investimentos com diversificação efetiva.",
+      "Diversificar sem considerar objetivos e perfil de risco."
+    ],
+    "exemplo": "Uma pessoa divide seus investimentos entre renda fixa, ações e fundos imobiliários para reduzir os riscos da carteira.",
+    "palavras_chave": [
+      "diversificação",
+      "carteira",
+      "ativos",
+      "risco",
+      "investimentos"
+    ],
+    "conceitos_relacionados": [
+      "INV001",
+      "INV002",
+      "INV003",
+      "INV008"
+    ],
+    "referencias": [
+      {
+        "instituicao": "Comissão de Valores Mobiliários (CVM)",
+        "tema": "Educação Financeira"
+      }
+    ]
+  },
+  {
+    "id": "INV007",
+    "nome": "Rentabilidade",
+    "categoria": "Investimentos",
+    "nivel": "Básico",
+    "definicao": "Rentabilidade é o retorno obtido por um investimento durante determinado período, podendo ser positivo ou negativo.",
+    "importancia": "Permite comparar investimentos e avaliar se eles estão contribuindo para alcançar os objetivos financeiros.",
+    "como_aplicar": [
+      "Comparar a rentabilidade considerando investimentos semelhantes.",
+      "Analisar a rentabilidade em conjunto com os riscos envolvidos.",
+      "Avaliar o desempenho ao longo do tempo, e não apenas em períodos curtos."
+    ],
+    "erros_comuns": [
+      "Escolher investimentos apenas pela maior rentabilidade passada.",
+      "Ignorar custos, impostos e inflação.",
+      "Comparar investimentos com características muito diferentes."
+    ],
+    "exemplo": "Um investimento que passou de R$ 10.000 para R$ 10.800 em um ano apresentou rentabilidade positiva no período.",
+    "palavras_chave": [
+      "rentabilidade",
+      "retorno",
+      "ganho",
+      "investimentos"
+    ],
+    "conceitos_relacionados": [
+      "INV001",
+      "INV004",
+      "INV008",
+      "ECO001"
+    ],
+    "referencias": [
+      {
+        "instituicao": "Comissão de Valores Mobiliários (CVM)",
+        "tema": "Investimentos"
+      }
+    ]
+  },
+  {
+    "id": "INV008",
+    "nome": "Risco",
+    "categoria": "Investimentos",
+    "nivel": "Básico",
+    "definicao": "Risco é a possibilidade de um investimento apresentar resultados diferentes dos esperados, incluindo a perda parcial ou total do capital investido.",
+    "importancia": "Compreender os riscos permite escolher investimentos compatíveis com os objetivos financeiros e com o perfil do investidor.",
+    "como_aplicar": [
+      "Conhecer os riscos antes de investir.",
+      "Diversificar os investimentos para reduzir a exposição.",
+      "Investir de acordo com o próprio perfil."
+    ],
+    "erros_comuns": [
+      "Acreditar que investimentos de maior retorno não possuem riscos.",
+      "Assumir riscos incompatíveis com os próprios objetivos.",
+      "Tomar decisões baseadas apenas em recomendações de terceiros."
+    ],
+    "exemplo": "Investimentos em ações costumam apresentar maior risco de oscilação do que investimentos em títulos públicos de curto prazo.",
+    "palavras_chave": [
+      "risco",
+      "volatilidade",
+      "perda",
+      "investimentos"
+    ],
+    "conceitos_relacionados": [
+      "INV001",
+      "INV003",
+      "INV005",
+      "INV006",
+      "INV007"
+    ],
+    "referencias": [
+      {
+        "instituicao": "Comissão de Valores Mobiliários (CVM)",
+        "tema": "Educação Financeira"
+      }
+    ]
+  }
+]
