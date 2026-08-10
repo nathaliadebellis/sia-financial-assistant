@@ -10,7 +10,8 @@ from ui import renderizar_interface
 st.set_page_config(
     page_title="SIA - Smart Interactive Assistant",
     page_icon="💰",
-    layout="centered",
+    layout="wide",
+    initial_sidebar_state="collapsed",
 )
 
 
@@ -68,11 +69,28 @@ def main():
         dados["faq"],
     )
 
+    st.sidebar.markdown(
+        "<div class='sidebar-card'>"
+        "<div class='sidebar-title'>Modo Demo</div>"
+        "<div class='sidebar-description'>Ative para exibir um painel de demonstração com visual pronto para screenshots.</div>"
+        "</div>",
+        unsafe_allow_html=True,
+    )
+    modo_demo = st.sidebar.checkbox("Ativar modo demo", value=True)
+    st.sidebar.markdown(
+        "<div class='sidebar-card'>"
+        "<div class='sidebar-title'>Sobre a SIA</div>"
+        "<div class='sidebar-description'>Assistente financeira baseada em IA para educação financeira e organização das finanças pessoais.</div>"
+        "</div>",
+        unsafe_allow_html=True,
+    )
+
     renderizar_interface(
         dados["transacoes"],
         dados["historico"],
         dados["metas"],
         contexto,
+        modo_demo=modo_demo,
     )
 
 

@@ -261,3 +261,13 @@ def processar_pergunta(pergunta, transacoes, historico, metas, contexto):
         return gerar_resumo_historico_atendimento(historico)
 
     return perguntar(pergunta, contexto)
+
+# ==================================================
+# CONFIGURAÇÕES
+# ==================================================
+
+OLLAMA_URL = "http://localhost:11434/api/generate"
+MODELO = "llama3.2:1b"
+
+# Exibe ou oculta valores financeiros
+MODO_DEMO = True
