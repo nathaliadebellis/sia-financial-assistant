@@ -431,7 +431,6 @@ def _render_chat_card(transacoes, historico, metas, contexto) -> None:
             with st.spinner('SIA está processando sua pergunta...'):
                 resposta = processar_pergunta(pergunta, transacoes, historico, metas, contexto)
             st.session_state.mensagens.append({'role': 'assistant', 'content': resposta})
-            st.experimental_rerun()
 
     st.markdown('</div>', unsafe_allow_html=True)
 
