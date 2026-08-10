@@ -53,33 +53,37 @@ As respostas evitam excesso de terminologia especializada e priorizam clareza e 
 
 ```mermaid
 flowchart LR
-
     U[👤 Usuário]
+    A[Streamlit App]
+    B[App Entrypoint<br>`src/app.py`]
+    C[UI Renderer<br>`src/ui.py`]
+    D[Assistant Logic<br>`src/assistant.py`]
+    E[Finanças & Regras<br>`src/finance.py`]
+    F[Carregamento de dados<br>`src/data_loader.py`]
+    G[LLM Local<br>Ollama]
 
-    subgraph Front-end
-        S[Streamlit]
-    end
-
-    subgraph IA
-        P[Prompt de Contexto]
-        L[LLM Local<br>Ollama]
-    end
-
-    U -->|Pergunta| S
-    S -->|Mensagem| L
-    P -->|Instruções| L
-    L -->|Resposta| S
-    S -->|Exibição| U
+    U -->|Pergunta| A
+    A --> B
+    B --> C
+    B --> D
+    C -->|Exibe dashboard| U
+    D -->|lógica local| E
+    D -->|contexto + prompt| G
+    F -->|dados carregados| B
+    F -->|dados carregados| D
+    D -->|resposta| C
 ```
 
 ### Componentes da Arquitetura
 
-| Componente | Tecnologia | Descrição |
-|------------|-----------|-----------|
-| Interface | Streamlit | Comunicação com o usuário|
-| LLM | Ollama | Processamento da linguagem natural |
-| Prompt do Sistema | Prompt Engineering | Persona, regras e contexto |
-| Validação | Regras do Prompt | Controle de escopo |
+| Componente | Arquivo | Descrição |
+|------------|--------|-----------|
+| Interface | `src/app.py` | Entrada principal do Streamlit e configuração da página |
+| Renderização | `src/ui.py` | Cria cards, alertas, gráfico e chat interativo |
+| Dados | `src/data_loader.py` | Carrega JSON e CSV dos diretórios `data/conhecimento` e `data/usuario` |
+| Assistente | `src/assistant.py` | Processa intents, saudações e chama o modelo local quando necessário |
+| Lógica financeira | `src/finance.py` | Calcula receitas, despesas, saldo, metas em risco e insights |
+| Modelo | Ollama | Gera respostas para perguntas gerais e histórias fora do escopo local |
 
 ---
 

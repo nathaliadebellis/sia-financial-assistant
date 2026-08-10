@@ -11,16 +11,18 @@ A SIA utiliza uma base de conhecimento estruturada em arquivos JSON para fornece
 | `perfil_investidor.json`     | JSON    | Contém os perfis de investidor (conservador, moderado e arrojado), utilizados para contextualizar respostas relacionadas a investimentos.      |
 | `produtos_financeiros.json`  | JSON    | Armazena informações sobre produtos financeiros, como poupança, CDB, Tesouro Selic, LCI, LCA, ETFs e ações.                                    |
 | `perguntas_frequentes.json`  | JSON    | Reúne perguntas frequentes e seus respectivos conceitos relacionados, auxiliando na geração de respostas rápidas e consistentes.               |
-| `historico_atendimento.csv`  | CSV     | Utilizado para simular históricos de atendimento e testar interações da assistente.                                                            |
-| `transacoes.csv`             | CSV     | Contém exemplos de transações financeiras para demonstração e testes da aplicação.                                                             |
+| `historico_atendimento.csv`  | CSV     | Utilizado como dados de histórico de atendimento para resumo de interações e avaliação de temas recorrentes.                                  |
+| `transacoes.csv`             | CSV     | Contém exemplos de transações financeiras para demonstração, cálculo de receitas/despesas e geração de insights.                             |
 
 ---
 
 ## Adaptações nos Dados
 
-Os arquivos originalmente disponibilizados no desafio foram reorganizados para atender ao contexto da SIA. Foi criada uma base de conhecimento própria, composta por arquivos JSON estruturados contendo conceitos financeiros, perfis de investidor, produtos financeiros e perguntas frequentes.
+Os arquivos foram organizados em duas pastas distintas:
+- `data/conhecimento` para a base de conhecimento (JSON);
+- `data/usuario` para dados de exemplo do usuário (CSV e JSON).
 
-Também foi realizada a organização dos arquivos em diretórios específicos, separando a base de conhecimento dos dados de exemplo utilizados durante os testes da aplicação.
+Essa separação melhora a manutenção e permite atualizar os conceitos financeiros independentemente das transações ou metas do usuário.
 
 ---
 
@@ -28,45 +30,27 @@ Também foi realizada a organização dos arquivos em diretórios específicos, 
 
 ### Como os dados são carregados?
 
-A base de conhecimento da SIA está organizada em arquivos JSON e CSV separados por domínio de informação, como conceitos financeiros, perfis de investidor, produtos financeiros e perguntas frequentes. Essa estrutura facilita a manutenção dos dados, permite a atualização independente de cada conjunto de informações e torna a solução mais escalável.
+A base de conhecimento da SIA é carregada por `src/data_loader.py`, que utiliza `pandas` e `pathlib` para ler os arquivos armazenados em `data/conhecimento` e `data/usuario`.
 
-Durante a inicialização da aplicação, os arquivos são carregados para a memória utilizando bibliotecas de manipulação de dados, como o **Pandas**. Dessa forma, os dados ficam disponíveis para consulta ao longo da execução do sistema, evitando leituras repetidas dos arquivos e melhorando o desempenho da aplicação.
-
-Essa abordagem também favorece a evolução futura da solução, permitindo a inclusão de novas fontes de dados sem alterações significativas na arquitetura do agente.
-
-Após o carregamento, os dados permanecem disponíveis em memória durante a execução da aplicação, permitindo consultas rápidas e reduzindo a necessidade de novas leituras dos arquivos.
+Os dados ficam disponíveis em memória durante a execução da aplicação, reduzindo leituras repetidas de disco e acelerando o fluxo de atendimento.
 
 #### Exemplo de carregamento dos arquivos
 
 ```python
-import json
+from pathlib import Path
 import pandas as pd
 
-# Carregamento dos arquivos JSON
-conceitos = pd.read_json(
-    "data/conhecimento/conceitos_financeiros.json"
-)
+ROOT_DIR = Path(__file__).resolve().parents[1]
+CONHECIMENTO_DIR = ROOT_DIR / "data" / "conhecimento"
+USUARIO_DIR = ROOT_DIR / "data" / "usuario"
 
-perfis = pd.read_json(
-    "data/conhecimento/perfil_investidor.json"
-)
-
-produtos = pd.read_json(
-    "data/conhecimento/produtos_financeiros.json"
-)
-
-faq = pd.read_json(
-    "data/conhecimento/perguntas_frequentes.json"
-)
-
-# Carregamento dos arquivos CSV
-transacoes = pd.read_csv(
-    "data/exemplos/transacoes.csv"
-)
-
-historico = pd.read_csv(
-    "data/exemplos/historico_atendimento.csv"
-)
+conceitos = pd.read_json(CONHECIMENTO_DIR / "conceitos_financeiros.json")
+perfis = pd.read_json(CONHECIMENTO_DIR / "perfil_investidor.json")
+produtos = pd.read_json(CONHECIMENTO_DIR / "produtos_financeiros.json")
+faq = pd.read_json(CONHECIMENTO_DIR / "perguntas_frequentes.json")
+transacoes = pd.read_csv(USUARIO_DIR / "transacoes.csv")
+historico = pd.read_csv(USUARIO_DIR / "historico_atendimento.csv")
+metas = pd.read_json(USUARIO_DIR / "metas_financeiras.json")
 
 print("Base de conhecimento carregada com sucesso.")
 ```

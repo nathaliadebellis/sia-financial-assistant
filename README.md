@@ -1,149 +1,255 @@
-# 🤖 Agente Financeiro Inteligente com IA Generativa
+# 💰 SIA - Smart Interactive Assistant
 
-## Contexto
+A SIA (Smart Interactive Assistant) é uma assistente virtual desenvolvida para apoiar usuários na educação financeira e na organização das finanças pessoais por meio de uma experiência conversacional baseada em Inteligência Artificial.
 
-Os assistentes virtuais no setor financeiro estão evoluindo de simples chatbots reativos para **agentes inteligentes e proativos**. Neste desafio, você vai idealizar e prototipar um agente financeiro que utiliza IA Generativa para:
-
-- **Antecipar necessidades** ao invés de apenas responder perguntas
-- **Personalizar** sugestões com base no contexto de cada cliente
-- **Cocriar soluções** financeiras de forma consultiva
-- **Garantir segurança** e confiabilidade nas respostas (anti-alucinação)
-
-> [!TIP]
-> Na pasta [`examples/`](./examples/) você encontra referências de implementação para cada etapa deste desafio.
+O projeto combina conceitos de IA Generativa, manipulação de dados e desenvolvimento de aplicações em Python para oferecer uma interface interativa de perguntas e respostas financeiras.
 
 ---
 
-## O Que Você Deve Entregar
+# 📌 Objetivo
 
-### 1. Documentação do Agente
+A SIA tem como objetivo transformar dados financeiros em conhecimento acessível, ajudando o usuário a compreender conceitos financeiros, analisar gastos e tomar decisões mais conscientes.
 
-Defina **o que** seu agente faz e **como** ele funciona:
+A aplicação foi projetada para:
 
-- **Caso de Uso:** Qual problema financeiro ele resolve? (ex: consultoria de investimentos, planejamento de metas, alertas de gastos)
-- **Persona e Tom de Voz:** Como o agente se comporta e se comunica?
-- **Arquitetura:** Fluxo de dados e integração com a base de conhecimento
-- **Segurança:** Como evitar alucinações e garantir respostas confiáveis?
-
-📄 **Template:** [`docs/01-documentacao-agente.md`](./docs/01-documentacao-agente.md)
-
----
-
-### 2. Base de Conhecimento
-
-Utilize os **dados mockados** disponíveis na pasta [`data/`](./data/) para alimentar seu agente:
-
-| Arquivo | Formato | Descrição |
-|---------|---------|-----------|
-| `transacoes.csv` | CSV | Histórico de transações do cliente |
-| `historico_atendimento.csv` | CSV | Histórico de atendimentos anteriores |
-| `perfil_investidor.json` | JSON | Perfil e preferências do cliente |
-| `produtos_financeiros.json` | JSON | Produtos e serviços disponíveis |
-
-Você pode adaptar ou expandir esses dados conforme seu caso de uso.
-
-📄 **Template:** [`docs/02-base-conhecimento.md`](./docs/02-base-conhecimento.md)
+- Explicar conceitos financeiros de forma simples e objetiva;
+- Consultar informações de uma base de conhecimento estruturada;
+- Interpretar dados financeiros de exemplo;
+- Auxiliar no acompanhamento de receitas, despesas e metas;
+- Incentivar hábitos financeiros mais saudáveis;
+- Demonstrar aplicação prática de IA Generativa em um ambiente local.
 
 ---
 
-### 3. Prompts do Agente
+# 🚀 Tecnologias Utilizadas
 
-Documente os prompts que definem o comportamento do seu agente:
+## Linguagem e Framework
 
-- **System Prompt:** Instruções gerais de comportamento e restrições
-- **Exemplos de Interação:** Cenários de uso com entrada e saída esperada
-- **Tratamento de Edge Cases:** Como o agente lida com situações limite
+- Python
+- Streamlit
 
-📄 **Template:** [`docs/03-prompts.md`](./docs/03-prompts.md)
+## Manipulação de Dados
 
----
+- Pandas
 
-### 4. Aplicação Funcional
+## Inteligência Artificial
 
-Desenvolva um **protótipo funcional** do seu agente:
+- Ollama
+- LLM local: `llama3.2:1b`
 
-- Chatbot interativo (sugestão: Streamlit, Gradio ou similar)
-- Integração com LLM (via API ou modelo local)
-- Conexão com a base de conhecimento
+## Consumo de APIs
 
-📁 **Pasta:** [`src/`](./src/)
+- Requests
 
----
+## Estruturação de Dados
 
-### 5. Avaliação e Métricas
+- JSON
+- CSV
 
-Descreva como você avalia a qualidade do seu agente:
+## Controle de Versão
 
-**Métricas Sugeridas:**
-- Precisão/assertividade das respostas
-- Taxa de respostas seguras (sem alucinações)
-- Coerência com o perfil do cliente
-
-📄 **Template:** [`docs/04-metricas.md`](./docs/04-metricas.md)
+- Git
+- GitHub
 
 ---
 
-### 6. Pitch
+# 🧠 Como o modelo funciona
 
-Grave um **pitch de 3 minutos** (estilo elevador) apresentando:
+A SIA utiliza um modelo de linguagem local rodando no Ollama para gerar respostas quando a pergunta não se encaixa em regras específicas de intenção.
 
-- Qual problema seu agente resolve?
-- Como ele funciona na prática?
-- Por que essa solução é inovadora?
+O aplicativo tenta processar perguntas diretamente com lógica local para evitar respostas genéricas e só consulta o modelo quando necessário.
 
-📄 **Template:** [`docs/05-pitch.md`](./docs/05-pitch.md)
+O endpoint utilizado é:
 
----
-
-## Ferramentas Sugeridas
-
-Todas as ferramentas abaixo possuem versões gratuitas:
-
-| Categoria | Ferramentas |
-|-----------|-------------|
-| **LLMs** | [ChatGPT](https://chat.openai.com/), [Copilot](https://copilot.microsoft.com/), [Gemini](https://gemini.google.com/), [Claude](https://claude.ai/), [Ollama](https://ollama.ai/) |
-| **Desenvolvimento** | [Streamlit](https://streamlit.io/), [Gradio](https://www.gradio.app/), [Google Colab](https://colab.research.google.com/) |
-| **Orquestração** | [LangChain](https://www.langchain.com/), [LangFlow](https://www.langflow.org/), [CrewAI](https://www.crewai.com/) |
-| **Diagramas** | [Mermaid](https://mermaid.js.org/), [Draw.io](https://app.diagrams.net/), [Excalidraw](https://excalidraw.com/) |
-
----
-
-## Estrutura do Repositório
-
-```
-📁 lab-agente-financeiro/
-│
-├── 📄 README.md
-│
-├── 📁 data/                          # Dados mockados para o agente
-│   ├── historico_atendimento.csv     # Histórico de atendimentos (CSV)
-│   ├── perfil_investidor.json        # Perfil do cliente (JSON)
-│   ├── produtos_financeiros.json     # Produtos disponíveis (JSON)
-│   └── transacoes.csv                # Histórico de transações (CSV)
-│
-├── 📁 docs/                          # Documentação do projeto
-│   ├── 01-documentacao-agente.md     # Caso de uso e arquitetura
-│   ├── 02-base-conhecimento.md       # Estratégia de dados
-│   ├── 03-prompts.md                 # Engenharia de prompts
-│   ├── 04-metricas.md                # Avaliação e métricas
-│   └── 05-pitch.md                   # Roteiro do pitch
-│
-├── 📁 src/                           # Código da aplicação
-│   └── app.py                        # (exemplo de estrutura)
-│
-├── 📁 assets/                        # Imagens e diagramas
-│   └── ...
-│
-└── 📁 examples/                      # Referências e exemplos
-    └── README.md
+```python
+http://localhost:11434/api/generate
 ```
 
 ---
 
-## Dicas Finais
+# 📂 Estrutura do Projeto
 
-1. **Comece pelo prompt:** Um bom system prompt é a base de um agente eficaz
-2. **Use os dados mockados:** Eles garantem consistência e evitam problemas com dados sensíveis
-3. **Foque na segurança:** No setor financeiro, evitar alucinações é crítico
-4. **Teste cenários reais:** Simule perguntas que um cliente faria de verdade
-5. **Seja direto no pitch:** 3 minutos passam rápido, vá ao ponto
+```text
+sia-financial-assistent
+│
+├── data/
+│   ├── conhecimento/
+│   │   ├── conceitos_financeiros.json
+│   │   ├── perfil_investidor.json
+│   │   ├── produtos_financeiros.json
+│   │   ├── perguntas_frequentes.json
+│   └── usuario/
+│       ├── transacoes.csv
+│       ├── historico_atendimento.csv
+│       └── metas_financeiras.json
+│
+├── docs/
+│   ├── 01-documentacao-agente.md
+│   ├── 02-base-conhecimento.md
+│   └── 03-prompts.md
+│   
+│
+├── src/
+│   ├── app.py
+│   ├── assistant.py
+│   ├── data_loader.py
+│   ├── finance.py
+│   └── ui.py
+│   
+│
+├── requirements.txt
+└── README.md
+```
+
+---
+
+# 📚 Base de Conhecimento e Dados
+
+A SIA utiliza arquivos JSON como base de conhecimento e arquivos CSV/JSON como dados de usuário.
+
+- `data/conhecimento/` contém conceitos, perfis de investidor, produtos financeiros e perguntas frequentes.
+- `data/usuario/` contém transações, histórico de atendimento e metas financeiras.
+
+Essa separação permite atualizar o conteúdo educativo independentemente dos exemplos financeiros do usuário.
+
+---
+
+# 💬 Funcionalidades
+
+### Educação Financeira
+
+A SIA responde dúvidas sobre:
+
+- conceitos financeiros;
+- perfil de investidor;
+- produtos financeiros;
+- perguntas frequentes.
+
+### Análise de Dados Financeiros
+
+A SIA também analisa dados locais para fornecer:
+
+- resumo de receitas, despesas e saldo;
+- alertas de metas em risco;
+- gráfico de gastos por categoria;
+- insights financeiros baseados nas transações.
+
+### Atendimento Conversacional
+
+A interface oferece um chat interativo em que o usuário pode digitar perguntas e receber respostas da assistente.
+
+Exemplos de perguntas:
+
+```text
+Quanto gastei com alimentação?
+Qual meu saldo atual?
+Como está minha situação financeira?
+O que é reserva de emergência?
+```
+
+---
+
+# 🧩 Arquitetura de Código
+
+O código atual está distribuído em módulos:
+
+- `src/app.py`: ponto de entrada do Streamlit e montagem do contexto;
+- `src/ui.py`: renderiza o dashboard e o chat;
+- `src/assistant.py`: identifica intenções e faz a chamada ao modelo quando necessário;
+- `src/finance.py`: contém funções de cálculo financeiro e geração de relatórios;
+- `src/data_loader.py`: carrega os dados de `data/` em memória.
+
+---
+
+# ⚙️ Como Executar
+
+## 1. Clonar o repositório
+
+```bash
+git clone https://github.com/nathaliadebellis/sia-financial-assistant.git
+```
+
+## 2. Acessar a pasta do projeto
+
+```bash
+cd sia-financial-assistant
+```
+
+## 3. Criar ambiente virtual
+
+```bash
+python -m venv .venv
+```
+
+## 4. Ativar ambiente virtual
+
+Windows:
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+Linux/Mac:
+
+```bash
+source .venv/bin/activate
+```
+
+## 5. Instalar dependências
+
+```bash
+pip install -r requirements.txt
+```
+
+## 6. Instalar o Ollama
+
+Baixe e instale o Ollama em https://ollama.com
+
+Em seguida, baixe o modelo local:
+
+```bash
+ollama pull llama3.2:1b
+```
+
+## 7. Executar o aplicativo
+
+```bash
+streamlit run src/app.py
+```
+
+---
+
+# 🎓 Aprendizados Aplicados
+
+Este projeto demonstra aplicação prática de:
+
+- IA Generativa com modelo local;
+- Engenharia de prompt e contexto;
+- Estruturação de base de conhecimento;
+- Manipulação e análise de dados com Pandas;
+- Interface web com Streamlit;
+- Modularização de código em Python;
+- Documentação do projeto.
+
+
+```bash
+streamlit run src/app.py
+```
+
+---
+
+# 🎓 Aprendizados Aplicados
+
+Este projeto foi desenvolvido como exercício prático de aplicação dos conhecimentos adquiridos durante o **Bootcamp Bradesco - GenAI, Dados & Cyber**, envolvendo:
+
+- Inteligência Artificial Generativa;
+- Engenharia de Prompt;
+- Estruturação de bases de conhecimento;
+- Manipulação e análise de dados;
+- Desenvolvimento de aplicações em Python;
+- Integração com APIs;
+- Construção de interfaces web com Streamlit;
+- Organização e documentação de projetos.
+
+---
+
